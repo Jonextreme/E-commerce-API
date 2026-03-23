@@ -16,6 +16,6 @@ namespace E_commerce_API.Entities
         public string? TrackingCode { get; set; }
         public DateTime? ShippedDate { get; set; }
         public DateTime? DeliveredDate { get; set; }
-        public ShippingStatus Status { get; set; } = null!;
+        public ShippingStatus Status { get; set; }
     }
 }
