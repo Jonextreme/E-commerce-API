@@ -10,8 +10,8 @@ namespace E_commerce_API.src.Domain.Entities
         public OrderStatus Status { get; set; }
         public int UserId { get; set; }
         public User User { get; set; } = null!;
-        public Payment Payment { get; set; } = null!;
         public Shipping Shipping { get; set; } = null!;
+        public ICollection<Payment> Payment { get; set; } = new List<Payment>();
         public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 }
