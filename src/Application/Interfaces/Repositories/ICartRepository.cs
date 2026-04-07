@@ -7,6 +7,7 @@ namespace E_commerce_API.src.Application.Interfaces.Repositories
         public Task<IEnumerable<Cart>> GetAll();
         public Task<Cart?> GetById(int id);
         public void Add(Cart cart);
+        public void Update(Cart cart);
         public void Remove(Cart cart);
     }
 }

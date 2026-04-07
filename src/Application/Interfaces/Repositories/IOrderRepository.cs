@@ -7,6 +7,7 @@ namespace E_commerce_API.src.Application.Interfaces.Repositories
         public Task<IEnumerable<Order>> GetAll();
         public Task<Order?> GetById(int id);
         public void Add(Order order);
+        public void Update(Order order);
         public void Remove(Order order);
     }
 }

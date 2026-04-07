@@ -7,6 +7,7 @@ namespace E_commerce_API.src.Application.Interfaces.Repositories
         public Task<IEnumerable<Category>> GetAll();
         public Task<Category?> GetById(int id);
         public void Add(Category category);
+        public void Update(Category category);
         public void Remove(Category category);
     }
 }

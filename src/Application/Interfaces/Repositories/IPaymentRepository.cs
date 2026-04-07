@@ -7,6 +7,7 @@ namespace E_commerce_API.src.Application.Interfaces.Repositories
         public Task<IEnumerable<Payment>> GetAll();
         public Task<Payment?> GetById(int id);
         public void Add(Payment payment);
+        public void Update(Payment payment);
         public void Remove(Payment payment);
     }
 }
