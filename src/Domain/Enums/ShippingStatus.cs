@@ -2,10 +2,11 @@
 {
     public enum ShippingStatus
     {
-        Pending,
-        Processing,
-        Shipped,
-        Delivered,
-        Returned
+        Pending = 1,
+        Processing = 2,
+        Shipped = 3,
+        InTransit = 4,
+        Delivered = 5,
+        Returned = 6
     }
 }
