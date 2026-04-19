@@ -7,6 +7,6 @@
         Completed = 3,
         Failed = 4,
         Canceled = 5,
-        Refunded = 6
+        Abandoned = 6
     }
 }
